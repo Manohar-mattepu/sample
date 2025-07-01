@@ -1,0 +1,11 @@
+-- and set up alerts ,logs, dashboards. Using Prometheus,grafanna,also used dynatrace
+--Quickly responding to outages or any performances issues.
+--writing a scrpits with help of shell to automate repetative tasks to reduce manual intervention 
+---maintain and improve cics pipeline to enabling faster and safer deployments.
+--- troubleshooting the issues and resolving the issues with in the sla based on bridge platform
+--- providing the on call support for production isseue with 24/7 basis
+--- customising the tasks according to the customer requirement.
+--- extracting providing the reports based on the bau.
+-- responding to the issues and coordinating with teams to minimize the down time
+--maintaining the incident tracker to prevent future not happening again.
+
