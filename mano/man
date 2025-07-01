@@ -1,0 +1,76 @@
+My roles are to ensure the system reliable,scalable and available and Ihave been worked in operations and development team to make sure services run smoothly in production.
+
+-- and set up alerts ,logs, dashboards. Using Prometheus,grafanna,also used dynatrace
+--Quickly responding to outages or any performances issues.
+--writing a scrpits with help of shell to automate repetative tasks to reduce manual intervention 
+---maintain and improve cics pipeline to enabling faster and safer deployments.
+--- troubleshooting the issues and resolving the issues with in the sla based on bridge platform
+--- providing the on call support for production isseue with 24/7 basis
+--- customising the tasks according to the customer requirement.
+--- extracting providing the reports based on the bau.
+-- responding to the issues and coordinating with teams to minimize the down time
+--maintaining the incident tracker to prevent future not happening again.
+
+
+
+1.what are the pillars of observebilities?
+A.the pillars of observebiliteis have primarily 3 types  1.logs,2.metrics,3.traces
+  LOGS: logs are immutable and it helps to identify the issues with time stamp 
+  METRICS: it provides the view of system's health and perfomances such as cpu,disk space ,connectivity,latency,errors etc
+  TRACES: it helps to trace the issues to understand where different services interacts and where error occur.
+  
+2.difference between monitoring and observibilites?
+a.Monitoring is about watching known issues using predefined metrics and alerts. like as per the metrics.
+  Observability is about understanding unknown issues by analyzing logs, metrics, and traces. 
+  
+3.difference between joins ?
+A. Inner join - Returns only matching rows from both tables.
+   left join - Returns all rows from the left table, and matching rows from the right table.
+   right join - Returns all rows from the Right table, and matching rows from the left table.
+   full join - Returns all rows from both tables, if no matched rown provides with null values.
+   cross join -Returns a cartesian product – all combinations of rows from both tables.
+4. difference between where and having ?
+   where: Filters rows before grouping or aggregation.
+   having: Used to filter groups after aggregation.   
+5. monitoring tools ?
+A. "I have experience using several monitoring tools, mainly Prometheus, Grafana, and ELK Stack.
+
+With Prometheus, I’ve set up exporters and created alerts for key metrics like CPU, memory, and service uptime.
+
+In Grafana, I built dashboards to visualize these metrics and help the team quickly detect issues.
+
+I’ve also worked with the ELK Stack (Elasticsearch, Logstash, Kibana) to collect and analyze logs, which helped in root cause analysis.
+Additionally, I’ve used Alertmanager to route alerts via email and Slack. These tools helped improve our system observability and response time."   
+
+6. in python difference between copy and deep copy ?
+A.Creates a new object and recursively copies all nested objects.
+  Original and copied objects are fully independent.
+  import copy
+
+original = [[1, 2], [3, 4]]
+deep = copy.deepcopy(original)
+
+deep[0][0] = 100
+print(original)  # [[1, 2], [3, 4]] → unchanged
+  Creates a new object, but does NOT copy nested objects.
+  The outer object is copied, but inner objects are shared (referenced).
+  import copyc
+
+original = [[1, 2], [3, 4]]
+shallow = copy.copy(original)
+
+shallow[0][0] = 100
+print(original) 
+  
+7. iterator vs generator
+A. Definition: An object that implements the __iter__() and __next__() methods to return data one element at a time.
+   Can be created from collections like lists, tuples, etc., using iter().
+   Definition: A special type of iterator created with a function using the yield keyword or generator expressions.
+8.what are the api http methods?
+A.GET,POST,PUT,DELETE,HEAD,OPTIONS
+
+9.WHAT ARE HTTP ERROR CODES 
+A. there are some series like 100,200,300,400,500
+   200-success
+   400-client error
+   500-server error
